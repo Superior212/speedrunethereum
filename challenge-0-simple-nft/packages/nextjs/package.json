@@ -10,9 +10,7 @@
     "lint": "next lint",
     "format": "prettier --write . '!(node_modules|.next|contracts)/**/*'",
     "check-types": "tsc --noEmit --incremental",
-    "vercel": "vercel",
-    "prepare": "husky install",
-    "postinstall": "if [ \"$NODE_ENV\" != \"production\" ]; then husky install; fi"
+    "vercel": "vercel"
   },
   "dependencies": {
     "@heroicons/react": "^2.0.11",
